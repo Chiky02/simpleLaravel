@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Programador Juan Ballén</title>
 
         <!-- Fonts -->
         <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -16,14 +16,63 @@
 
         <style>
             body {
-                font-family: 'Nunito', sans-serif;
-            }
+      font-family: Arial, sans-serif;
+      background-color: #f0f2f5;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    header {
+      background-color: #4A90E2;
+      color: white;
+      padding: 2rem 0;
+    }
+
+    section {
+      margin: 2rem auto;
+      max-width: 800px;
+      background: white;
+      padding: 2rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    footer {
+      margin-top: 2rem;
+      color: #888;
+      font-size: 0.9rem;
+    }
         </style>
     </head>
     <body class="antialiased">
-            <h1>Mi primera vista</h1>
-            
-         
+    <header>
+    <h1>Programador Juan Ballén</h1>
+    <p>Portafolio personal</p>
+  </header>
+  <section>
+    <h2>Sobre mí</h2>
+    <img src="https://avatars.githubusercontent.com/u/72674977?v=4">
+    <p>Soy un desarrollador apasionado por la tecnología, especializado en soluciones web y sistemas inteligentes.</p>
+
+    <h2>Proyectos destacados</h2>
+    <ul>
+      <li>Sistema de monitoreo con ESP8266 y Firebase</li>
+      <li>Página web para barbería con FlutterFlow</li>
+      <li>Juego educativo sobre la historia de Colombia</li>
+    </ul>
+
+    <h2>Contacto</h2>
+    <p>Email: juanballen.02@gmail.com</p>
+    <p>GitHub: <a href="https://github.com/Chiky02" target="_blank">juanballen</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Juan Ballén - Todos los derechos reservados
+  </footer>
             <button id="next" onclick="alerta()">Siguiente vista</button>
             
             <script>
